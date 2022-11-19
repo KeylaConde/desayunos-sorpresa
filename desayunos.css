@@ -100,3 +100,15 @@ h2 {
     margin-bottom: 10px;
     font-size: 1.8rem;
 }
+ 
+@media (max-width: 756px) {
+    #happy {
+        display: none;
+    }
+    .general .carousel-inner img {
+        width: 90vw;
+    }
+    #carouselExampleInterval {
+        width: 100vw;
+    }
+}
