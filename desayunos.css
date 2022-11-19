@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    background-color: powderblue;
+}
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid rgba(39, 200, 240, 0.781);
+}
+#navHead {
+    background-color: pink;
+    border: 2px solid white;
+}
+#desktopMenu a {
+    color: gray;
+    font-size: 1.8rem;
+}
+#search {
+    width: 200px;
+    font-size: 1.4rem;
+}
+#buttonSearch {
+    color: white;
+    background-color: rgba(39, 200, 240, 0.781);
+    font-size: 1.6rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.general {
+    background-color: powderblue;
+    margin: 0 20px;
+    border-radius: 20px;
+    
+}
+.general .carousel-inner img {
+    height: 50vh;
+    width: 30vw;
+    border-radius: 20px;
+    margin: 0 30px 0 0;
+}
+#carouselExampleInterval {
+    width: 30vw;
+}
+h1 {
+  margin: 20px;
+  padding: 20px; 
+  font-size: 40px; 
+  font-family: fantasy;
+  font-style: italic;
+  color: black;
+  text-align: center;
+  background-color: silver;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+h2 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 3rem;
+    background-color: pink;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+#happy {
+    background-color: white;
+    width: 300px;
+    float: left;
+}
+.card {
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 2px solid white;
+    height: 35rem;
+}
+.card img {
+    height: 25rem;
+    width: 100%;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+}
+.domicilio {
+    margin: 30px;
+}
+#guardarBtn {
+    background-color: silver;
+    border: 1px solid white;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
