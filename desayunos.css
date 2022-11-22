@@ -1,3 +1,13 @@
+:root {
+    --blue: powderblue;
+    --pink: pink;
+    --white: white;
+    --kingBlue: rgba(39, 200, 240, 0.781);
+    --gray: gray;
+    --lightGray: silver;
+    --black: black;
+    --facebookBlue: #1877f2;
+}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,20 +18,20 @@ html {
 }
 body {
     font-size: 1.6rem;
-    background-color: powderblue;
+    background-color: var(--blue);
 }
 header img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    border: 2px solid rgba(39, 200, 240, 0.781);
+    border: 2px solid var(--kingBlue);
 }
 #navHead {
-    background-color: pink;
-    border: 2px solid white;
+    background-color: var(--pink);
+    border: 2px solid var(--white);
 }
 #desktopMenu a {
-    color: gray;
+    color: var(--gray);
     font-size: 1.8rem;
 }
 #search {
@@ -29,16 +39,16 @@ header img {
     font-size: 1.4rem;
 }
 #buttonSearch {
-    color: white;
-    background-color: rgba(39, 200, 240, 0.781);
+    color: var(--white);
+    background-color: var(--kingBlue);
     font-size: 1.6rem;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid var(--white);
 }
 .general {
-    background-color: powderblue;
+    background-color: var(--blue);
     margin: 0 20px;
     border-radius: 20px;
     
@@ -58,31 +68,33 @@ h1 {
   font-size: 40px; 
   font-family: fantasy;
   font-style: italic;
-  color: black;
+  color: var(--black);
   text-align: center;
-  background-color: silver;
+  background-color: var(--lightGray);
   border-radius: 10px;
-  border: 2px solid white;
+  border: 2px solid var(--white);
 }
 h2 {
     text-align: center;
     font-family: fantasy;
     font-size: 3rem;
-    background-color: pink;
+    background-color: var(--pink);
     padding: 1rem;
     border-radius: 10px;
-    border: 2px solid white;
+    border: 2px solid var(--white);
+    
 }
 #happy {
-    background-color: white;
+    background-color: var(--white);
     width: 300px;
     float: left;
 }
 .card {
     border-radius: 20px;
     margin-top: 20px;
-    border: 2px solid white;
+    border: 2px solid var(--white);
     height: 35rem;
+    width: 25rem;
 }
 .card img {
     height: 25rem;
@@ -91,14 +103,69 @@ h2 {
     border-start-end-radius: 20px;
 }
 .domicilio {
-    margin: 30px;
+    margin: 40px;
 }
 #guardarBtn {
-    background-color: silver;
-    border: 1px solid white;
-    color: black;
+    background-color: var(--lightGray);
+    border: 1px solid var(--white);
+    color: var(--black);
     margin-bottom: 10px;
     font-size: 1.8rem;
+}
+#footer {
+    background-color: var(--pink);
+    border: 2px solid var(--white);
+    height: 25vh;
+    display: flex;
+}
+#footer a {
+    margin-top: 4px;
+    text-decoration: none;
+    color: var(--gray);
+}
+#whatsappIcon {
+    text-decoration: none;
+    color: var(--white)!important;
+    background-color: rgb(73, 139, 73);
+    vertical-align: middle;
+    margin: 4px;
+}
+h3 {
+    margin-top: 50px;
+    color: var(--gray);
+}
+#socialNetwork {
+    margin-bottom: 20px;
+}
+#footer p {
+    color: var(--gray);
+    margin-top: 4px;
+}
+#term {
+    height: 20vh;
+}
+.condition {
+    margin-top: 30px;
+}
+#facebook {
+    color: var(--facebookBlue)!important;
+    background-color: var(--white);
+}
+#instagram {
+    color: var(--white)!important;
+    background-color: rgb(199, 19, 118);
+}
+#tiktok {
+    color: var(--white)!important;
+    background-color: var(--black);
+}
+#facebook, #instagram, #tiktok, #whatsappIcon {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 2.7rem;
+    border-radius: 10px;
+    margin: 4px;
 }
  
 @media (max-width: 756px) {
@@ -110,5 +177,8 @@ h2 {
     }
     #carouselExampleInterval {
         width: 100vw;
+    }
+    h2 {
+        margin: 30px;
     }
 }
