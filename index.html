@@ -19,7 +19,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div id="termCond" class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul id="desktopMenu" class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
@@ -55,9 +55,9 @@
     <!--Main-->
     <div class="general">
         <h1><strong>Desayunos Sorpresa Barranquilla</strong></h1>
-        <div class="container">
-            <div class="row">
-                <div class="col col-xs-12 col-sm-12 col-lg-6">
+        <div class="container-fluid">
+            <div id="main" class="row">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="10000">
@@ -83,12 +83,12 @@
                         </button>
                     </div>
                 </div>
-                <div class="col col-xs-12 col-sm-12 col-lg-6">
+                <div class="col col-xs-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6">
                     <h2><strong>Clientes felices</strong></h2>
                     <div class="container">
                         <div class="row">
-                            <div class="col">
-                                <div class="card"  style="width: 18rem;">
+                            <div class="col col-xl-6 col-xxl-4">
+                                <div class="card">
                                     <img src="./images/happy/western.jpeg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                       <p class="card-text">Para esa compañera de trabajo que tanto quieres.</p>
@@ -96,8 +96,8 @@
                                 </div>
                             </div>    
                             
-                            <div class="col">
-                                <div class="card" style="width: 18rem;">
+                            <div class="col col-xl-6 col-xxl-4">
+                                <div class="card">
                                     <img src="./images/happy/WhatsApp Image 2022-11-17 at 10.39.47 PM.jpeg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                       <p class="card-text">Para esa amiga/o que es incondicional.</p>
@@ -105,7 +105,7 @@
                                 </div>
                             </div> 
                             <div class="col">
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <img src="./images/happy/happyPorFin.jpeg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                       <p class="card-text">Para esas mamitas llenas de antojos.</p>
@@ -165,19 +165,19 @@
     <footer id="footer" class="pb-4 pt-4">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div id="term" class="col">
                     <h3>Whatsapp</h3>
                     <p>3145643231</p>
                     <a id="whatsappIcon" href="#" class="fa-brands fa-whatsapp"></a>  
                 </div>
                 <div id="term" class="col">
-                    <h3 id="socialNetwork">Síguenos</h3>
+                    <h3 id="socialNetwork" class="main-nav-item">Síguenos</h3>
                     <a id="facebook" class="fa-brands fa-facebook" href="#"></a>
                     <a id="instagram" class="fa-brands fa-instagram" href="#"></a>
                     <a id="tiktok" class="fa-brands fa-tiktok" href="#"></a>
                     
                 </div>
-                <div id="term" class="col">
+                <div id="termCond" class="col">
                     <h3><a class="condition" href="#">Términos y condiciones</a></h3>  
                 </div>
             </div>
