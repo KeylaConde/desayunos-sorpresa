@@ -26,8 +26,13 @@ header img {
     border-radius: 50%;
     border: 2px solid var(--kingBlue);
 }
-#navHead {
+#nH {
     background-color: var(--pink);
+    border: 2px solid var(--white);
+}
+#min-menu {
+    background-color: var(--blue);
+    border-radius: 10px;
     border: 2px solid var(--white);
 }
 #desktopMenu a {
